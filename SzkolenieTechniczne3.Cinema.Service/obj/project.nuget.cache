@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jTiX4c9GFxw8MY3mwEwU0uxf0OCAv7gOwMhq1OhaeSnCXwxzFUnEHLhOUPTPiYCRj6LIlngjqkuovDiFc8M2/w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\XXX\\3D Objects\\Projekty\\SzkolenieTechniczne2\\SzkolenieTechniczne3.Cinema.Service\\SzkolenieTechniczne3.Cinema.Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\XXX\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}
