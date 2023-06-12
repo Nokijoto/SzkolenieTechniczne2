@@ -15,6 +15,6 @@ namespace SzkolenieTechniczne2.Common.Storage.Entities
         public DateTime ModifiedOn { get; set; }
         public DateTime CreatedOn { get; set; }
         public Guid CreatedByUserId { get; set; }
-        public Guid ModifiedByUserId { get; set; };
+        public Guid ModifiedByUserId { get; set; }
     }
 }

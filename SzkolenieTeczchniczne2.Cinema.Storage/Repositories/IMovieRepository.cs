@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SzkolenieTeczchniczne2.Cinema.Storage.Entities;
+using SzkolenieTechniczne2.Cinema.Storage.Entities;
 
-namespace SzkolenieTeczchniczne2.Cinema.Storage.Repositories
+namespace SzkolenieTechniczne2.Cinema.Storage.Repositories
 {
     public interface IMovieRepository
     {

@@ -1,0 +1,71 @@
+﻿@*
+    
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@using SzkolenieTechniczne2.Cinema.Service.Query.Dtos;
+@model IEnumerable<MovieDto>
+@{
+    
+    ViewData["Title"] = "Filmy";
+}
+
+<h2> Fimy</h2>
+@if(Model.Any())
+{
+    <div>
+        <table class="table">
+            <thead class="tab-pane">
+                <tr>
+                    <th>
+                        Nazwa
+                    </th>
+                    <th>
+                       
+                    </th>
+                    <th>
+                      
+                    </th>
+                    <th>
+                       
+                    </th>
+                    <th>
+                        <a class="btn btn-outline-success float-fight" asp-action="Add">Dodaj</a>
+                    </th>
+                </tr>
+            </thead>
+            <tbody class="tab-content">
+                @foreach(var item in Model)
+                {
+                     
+                    <tr>
+                        <td>
+                            @item.Name
+                        </td>
+                        <td>
+                            <div class="d-inline-flex float-right">
+                            <a class="text-warning btn btn-link" asp-action="Index" asp-asp-controller="Seances" asp-route-id="@item.Id">
+                            <i class="fas fa-pen-square">Zobacz seanse</i></a>
+                            </div>
+                        </td>
+                        <td>
+                            <a class="btn btn-link text-secondary" asp-action="Edit" asp-route-id="@item.Id">Edytuj</a>
+                        </td>
+                        <td>
+                            <form method="post" asp-action="Delete" asp-route-id="@item.Id">
+                                <button type="submit" class="btn btn-link text-danger float-right">Usuń</button>
+                            </form>
+                            
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <div class="alert alert-info">
+        Brak filmów
+    </div>
+}
+

@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using SzkolenieTechniczne2.Common.Storage.Entities;
 
-namespace SzkolenieTeczchniczne2.Cinema.Storage.Entities
+namespace SzkolenieTechniczne2.Cinema.Storage.Entities
 {
     [Table("Seances", Schema = "Cinema")]
     public class Seance : BaseEntity
@@ -22,7 +22,16 @@ namespace SzkolenieTeczchniczne2.Cinema.Storage.Entities
 
         public virtual ICollection<Ticket> Tickets { get; set; }
 
+        public Seance(DateTime seanceDate, Guid movieId)
+        {
+            Id = Guid.NewGuid();
+            Date = seanceDate;
+            MovieId = movieId;
+        }
 
-
+        public void Add(Ticket ticket)
+        {
+           Tickets.Add(ticket);
+        }
     }
 }

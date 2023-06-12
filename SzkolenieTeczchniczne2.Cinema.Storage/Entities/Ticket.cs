@@ -7,11 +7,20 @@ using System.Text;
 using System.Threading.Tasks;
 using SzkolenieTechniczne2.Common.Storage.Entities;
 
-namespace SzkolenieTeczchniczne2.Cinema.Storage.Entities
+namespace SzkolenieTechniczne2.Cinema.Storage.Entities
 {
-    [Table("Tickets",Schema = "Cinema")]
-    public class Ticket: BaseEntity
+    [Table("Tickets", Schema = "Cinema")]
+    public class Ticket : BaseEntity
     {
+        protected Ticket() { }
+
+        public Ticket(string email, int peopleCount)
+        {
+            Id = Guid.NewGuid();
+            Email = email;
+
+            PeopleCount = peopleCount;
+        }
         [MinLength(2)]
         [MaxLength(128)]
         [Required]
@@ -19,7 +28,7 @@ namespace SzkolenieTeczchniczne2.Cinema.Storage.Entities
 
         [MinLength(9)]
         [MaxLength(64)]
-        public string PhoneNumber { get;set }
+        public string PhoneNumber { get; set; }
 
         [Required]
         [MinLength(1)]

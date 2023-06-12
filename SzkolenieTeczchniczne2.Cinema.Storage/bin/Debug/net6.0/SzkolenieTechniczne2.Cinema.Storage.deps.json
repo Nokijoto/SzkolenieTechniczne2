@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SzkolenieTechniczne2.Cinema.Storage/1.0.0": {
+        "dependencies": {
+          "SzkolenieTechniczne2.Common.Storage": "1.0.0"
+        },
+        "runtime": {
+          "SzkolenieTechniczne2.Cinema.Storage.dll": {}
+        }
+      },
+      "SzkolenieTechniczne2.Common.Storage/1.0.0": {
+        "runtime": {
+          "SzkolenieTechniczne2.Common.Storage.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SzkolenieTechniczne2.Cinema.Storage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SzkolenieTechniczne2.Common.Storage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "L9q+XEYlNQWzJRiMjR1H5nmafXCwdfRQJJWrUwrfKOQYBaznwn6BMSQ6WtDinEldnJt3oLabASp1lvPGUBzldw==",
+  "success": true,
+  "projectFilePath": "D:\\Programowanie3\\Projekty\\2023\\SzkolenieTechniczne2\\CinemaUI\\CinemaUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rexma\\.nuget\\packages\\autofac\\7.0.1\\autofac.7.0.1.nupkg.sha512",
+    "C:\\Users\\Rexma\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
+    "C:\\Users\\Rexma\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

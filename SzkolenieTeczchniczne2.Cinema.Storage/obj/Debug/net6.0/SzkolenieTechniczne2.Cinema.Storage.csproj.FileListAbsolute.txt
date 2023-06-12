@@ -1,0 +1,15 @@
+D:\Programowanie3\Projekty\2023\SzkolenieTechniczne2\SzkolenieTeczchniczne2.Cinema.Storage\obj\Debug\net6.0\SzkolenieTechniczne2.Cinema.Storage.csproj.AssemblyReference.cache
+D:\Programowanie3\Projekty\2023\SzkolenieTechniczne2\SzkolenieTeczchniczne2.Cinema.Storage\obj\Debug\net6.0\SzkolenieTechniczne2.Cinema.Storage.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programowanie3\Projekty\2023\SzkolenieTechniczne2\SzkolenieTeczchniczne2.Cinema.Storage\obj\Debug\net6.0\SzkolenieTechniczne2.Cinema.Storage.AssemblyInfoInputs.cache
+D:\Programowanie3\Projekty\2023\SzkolenieTechniczne2\SzkolenieTeczchniczne2.Cinema.Storage\obj\Debug\net6.0\SzkolenieTechniczne2.Cinema.Storage.AssemblyInfo.cs
+D:\Programowanie3\Projekty\2023\SzkolenieTechniczne2\SzkolenieTeczchniczne2.Cinema.Storage\obj\Debug\net6.0\SzkolenieTechniczne2.Cinema.Storage.csproj.CoreCompileInputs.cache
+D:\Programowanie3\Projekty\2023\SzkolenieTechniczne2\SzkolenieTeczchniczne2.Cinema.Storage\bin\Debug\net6.0\SzkolenieTechniczne2.Cinema.Storage.deps.json
+D:\Programowanie3\Projekty\2023\SzkolenieTechniczne2\SzkolenieTeczchniczne2.Cinema.Storage\bin\Debug\net6.0\SzkolenieTechniczne2.Cinema.Storage.dll
+D:\Programowanie3\Projekty\2023\SzkolenieTechniczne2\SzkolenieTeczchniczne2.Cinema.Storage\bin\Debug\net6.0\SzkolenieTechniczne2.Cinema.Storage.pdb
+D:\Programowanie3\Projekty\2023\SzkolenieTechniczne2\SzkolenieTeczchniczne2.Cinema.Storage\bin\Debug\net6.0\SzkolenieTechniczne2.Common.Storage.dll
+D:\Programowanie3\Projekty\2023\SzkolenieTechniczne2\SzkolenieTeczchniczne2.Cinema.Storage\bin\Debug\net6.0\SzkolenieTechniczne2.Common.Storage.pdb
+D:\Programowanie3\Projekty\2023\SzkolenieTechniczne2\SzkolenieTeczchniczne2.Cinema.Storage\obj\Debug\net6.0\SzkolenieTechniczne2.Cinema.Storage.csproj.CopyComplete
+D:\Programowanie3\Projekty\2023\SzkolenieTechniczne2\SzkolenieTeczchniczne2.Cinema.Storage\obj\Debug\net6.0\SzkolenieTechniczne2.Cinema.Storage.dll
+D:\Programowanie3\Projekty\2023\SzkolenieTechniczne2\SzkolenieTeczchniczne2.Cinema.Storage\obj\Debug\net6.0\refint\SzkolenieTechniczne2.Cinema.Storage.dll
+D:\Programowanie3\Projekty\2023\SzkolenieTechniczne2\SzkolenieTeczchniczne2.Cinema.Storage\obj\Debug\net6.0\SzkolenieTechniczne2.Cinema.Storage.pdb
+D:\Programowanie3\Projekty\2023\SzkolenieTechniczne2\SzkolenieTeczchniczne2.Cinema.Storage\obj\Debug\net6.0\ref\SzkolenieTechniczne2.Cinema.Storage.dll

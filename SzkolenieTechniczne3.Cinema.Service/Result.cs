@@ -1,17 +1,18 @@
-﻿using System;
+﻿using FluentValidation.Results;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SzkolenieTechniczne3.Cinema.Service
+namespace SzkolenieTechniczne2.Cinema.Service
 {
     public class Result
     {
         private Result(bool isSuccess,string message,IEnumerable<Error> errors)
         {
-            IsSuccess = isSuccess;
+            isSuccess = isSuccess;
             isFailure = !isSuccess;
             Message = message;
             Errors = errors;
@@ -23,8 +24,16 @@ namespace SzkolenieTechniczne3.Cinema.Service
         public IEnumerable<Error> Errors { get; }
         public static Result Fail(string message)
           => new Result(false, message, Enumerable.Empty<Error>());
+        public static Result Fail(ValidationResult validationResult)
+        {
+            return new Result(
+                false, string.Join(", ", validationResult.Errors.Select(x => x.ErrorMessage)), validationResult.Errors.Select(x => new Error(x.PropertyName, x.ErrorMessage))
+            );
+        }
         public static Result Ok()
             => new Result(true, "", Enumerable.Empty<Error>());
+
+     
     }
 
     public class Error
